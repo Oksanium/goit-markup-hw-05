@@ -515,6 +515,7 @@ footer .foot-sec-one {
 
 .subscr-form {
   display: flex;
+  gap: 24px;
 }
 
 .email-input {
@@ -584,7 +585,7 @@ footer .foot-sec-one {
   opacity: 0;
   pointer-events: none;
 
-  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -789,8 +790,8 @@ footer .foot-sec-one {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 
-  cursor: pointer 
-  
+  cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
