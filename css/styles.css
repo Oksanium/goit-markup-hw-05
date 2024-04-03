@@ -547,7 +547,6 @@ footer .foot-sec-one {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
@@ -569,6 +568,10 @@ footer .foot-sec-one {
 .foot-subscr-btn:hover,
 .foot-subscr-btn:focus {
   background-color: #404bbf;
+}
+
+.subscr-btn-ic {
+  margin-left: 16px;
 }
 
 /* #endregion */
